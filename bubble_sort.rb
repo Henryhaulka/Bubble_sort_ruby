@@ -3,8 +3,8 @@ def bubble_sort(arr)
   loop do
     sorted = false
     (last_index - 1).times do |i|
-      if arr[i] > arr[i+1]
-        arr[i], arr[i+1] = arr[i+1], arr[i]
+      if arr[i] > arr[i + 1]
+        arr[i], arr[i + 1] = arr[i + 1], arr[i]
         sorted = true
       end
     end
@@ -27,4 +27,3 @@ def bubble_sort_by(arr)
   end
   arr
 end
-
